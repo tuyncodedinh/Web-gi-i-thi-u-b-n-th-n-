@@ -55,3 +55,67 @@ Tran Quang Vu</h1>
   <script src="main.js"></script>
 </body>
 </html>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Mooli&family=Roboto:wght@300&display=swap');
+</style>
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background: indianred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mooli', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+.khung{
+  background: white;
+  height: 700px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.img{
+  width: 100px;
+  height: 100px;
+  width: 100%;
+  height: 100%;
+}
+
+
+.vien__img{
+  width: 260px;
+  height: 260px;
+  border: 6px solid red;
+  border-radius: 50%;
+  margin: 7px auto;
+  overflow: hidden;
+}
+
+.menu li {
+  list-style-type: none;
+}
+
+.menu a{text-decoration: none}
+.social{
+  color: skyblue;
+}
+.nut{
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0 auto;
+  padding: 2em;
+}
+.nut > li{
+  background-color: lightblue;
+  border-radius: 1em;
+  padding: 0.5;
+  margin: 1em 0;
+  align-items: center;
+}
